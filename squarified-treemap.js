@@ -109,13 +109,14 @@ function calcArea(data,allArea){ //原始数据，处理成面积
 //[ [[1,2,3],4] , [4,3] , [1,2,3,4] ] => 
 function nestedSquarifiedTreemap(mareas,width,height){
     var treemapCoos = [];
+    var tempAreas = [];
     var i = 0;
     var len = mareas.length;
     if(len == 0)
         return;
     for(i = 0; i < len; i++){
         if(isArray(mareas[i])){
-            
+            tempAreas.push(sumArray(mareas[i]));
         }
         else{
 
