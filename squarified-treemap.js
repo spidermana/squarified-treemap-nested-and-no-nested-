@@ -1,6 +1,4 @@
-
-
-
+ 
 class Remainder{
     #xcoo;
     #ycoo;
@@ -43,6 +41,7 @@ class Remainder{
             for(i = 0; i < len;i++){
                 delWidth = aRow[i]/delHeight;
                 nAreaArr.push([nx,ny,nx+delWidth,ny+delHeight]);
+                nx = nx + delWidth;
             }
         }
         return nAreaArr; 
@@ -77,6 +76,9 @@ function isArray(a){
     return a && a.constructor == Array;
 }
 function sumArray(arrs){
+    if(!isArray(arrs)){
+        return arrs;
+    }
     var i;
     var lens = arrs.length;
     var sum = 0;
@@ -91,7 +93,7 @@ function sumArray(arrs){
 }
 //[1,[2,3,4],1,[[2,3],[6,7,1]]] => 30;allarea = 60;
 //[]
-function calcArea(data,allArea){ //原始数据，处理成面积
+function calcArea(data,allArea){ //原始数据，处理成面积[①]
     var areas = [];
     var unitArea = allArea/sumArray(data);
     var i = 0;
@@ -106,10 +108,12 @@ function calcArea(data,allArea){ //原始数据，处理成面积
     }
     return areas;
 }
-//[ [[1,2,3],4] , [4,3] , [1,2,3,4] ] => 
-function nestedSquarifiedTreemap(mareas,width,height){
+//[ [[1,2,3],4] , [4,3] , [1,2,3,4], 6 ] => 
+function nestedSquarifiedTreemap(mareas,xcoo,ycoo,width,height){    //②
     var treemapCoos = [];
     var tempAreas = [];
+    var res = [];
+    var needNested = 0;
     var i = 0;
     var len = mareas.length;
     if(len == 0)
@@ -117,16 +121,73 @@ function nestedSquarifiedTreemap(mareas,width,height){
     for(i = 0; i < len; i++){
         if(isArray(mareas[i])){
             tempAreas.push(sumArray(mareas[i]));
+            needNested = 1;
         }
         else{
-
+            tempAreas.push(mareas[i]);
         }
     }
+    console.log("tempAreas",tempAreas);
+    treemapCoos = noNestedSquarifiedTreemap(tempAreas,xcoo,ycoo,width,height);
+    if(needNested){
+        for(i = 0; i < len; i++){
+            if(isArray(mareas[i])){
+                res.push(nestedSquarifiedTreemap(mareas[i],treemapCoos[i][0],treemapCoos[i][1],treemapCoos[i][2]-treemapCoos[i][0],treemapCoos[i][3]-treemapCoos[i][1]));
+            }
+        }
+    }else{
+        console.log("treemapCoos",treemapCoos);
+        res = treemapCoos;
+    }
+    return res;
+    
+} 
+function unfoldSquare(rawTreemaps){
+    var res = [];
+    var i,j;
+    var len=rawTreemaps.length;
+    for( i = 0; i< len ; i++){
+        var leni = rawTreemaps[i].length;
+        for( j = 0; j < leni ; j++){
+            res.push(rawTreemaps[i][j]);
+        }
+    }
+    console.log("rawTreemaps",res);
+    return res;
 }
 
-function noNestedSquarifiedTreemap(areas,width,height){
-
+function noNestedSquarifiedTreemap(areas,xcoo,ycoo,width,height){
+    var remainder  = new Remainder(xcoo,ycoo,width,height);
+    var rawTreemaps = squarify(areas,[],remainder,[]);
+    return unfoldSquare(rawTreemaps);
 }
-function squarify(areas,){
 
+//calculate Ratios
+function worst(row,shorterEdge){
+    var min = Math.min.apply(Math,row);
+    var max = Math.max.apply(Math,row);
+    var sum = sumArray(row);
+    return  Math.max(Math.pow(shorterEdge,2)*max/Math.pow(sum,2), Math.pow(sum,2)/(Math.pow(shorterEdge,2)*min));
+}
+
+function squarify(areas,nrow,remainder,saver){
+    if (areas.length == 0){
+        saver.push(remainder.saveRectCoordinates(nrow));
+        return;
+    }
+    var head = areas[0];
+    var newRemainder;
+    if((nrow.length == 0 && nrow.push(head)) || worst(nrow,remainder.shorterEdge()) > (nrow.push(head),worst(nrow,remainder.shorterEdge()))){
+        console.log("nrow",nrow,nrow.length);
+        squarify(areas.slice(1),nrow,remainder,saver);
+    }else{
+        //pop尾部
+        nrow.pop();
+        console.log("pop_nrow",nrow,nrow.length);
+        newRemainder = remainder.nextRemainder(nrow);
+        saver.push(remainder.saveRectCoordinates(nrow));
+        squarify(areas,[],newRemainder,saver);
+    }
+    console.log(saver);
+    return saver;
 }

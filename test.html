@@ -10,44 +10,19 @@
 </head>
 <body>
 
-<script>
+<div id="example-1"></div>
 
-function isArray(a){
-    return a && a.constructor == Array;
-}
-function sumArray(arrs){
-    var i;
-    var lens = arrs.length;
-    var sum = 0;
-    for(i = 0; i < lens; i++){
-        if(isArray(arrs[i])){
-            sum += sumArray(arrs[i]);
-        }else{
-            sum += arrs[i];
-        }
-    }
-    return sum;
-}
-function calcArea(data,allArea){ //原始数据，处理成面积
-    var areas = [];
-    var unitArea = allArea/sumArray(data);
-    var i = 0;
-    var len = data.length;
-    for(i = 0; i < len; i++){
-        if(isArray(data[i])){
-            areas.push(calcArea(data[i],sumArray(data[i])*unitArea));
-        }
-        else{
-            areas.push(data[i]*unitArea);
-        }
-    }
-    return areas;
-}
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="raphael-min.js"></script>
+<script type="text/javascript" src="squarified-treemap.js"></script>
+<script type="text/javascript" src="raphael_for_treemap.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var data = [6,6,4,3,2,2,1];
+        var labels = ["Paris","London", "New York", "Moscow", "Berlin","tsinghua", "Tokyo"];
+        draw("example-1", 600, 400, data, labels/*,{"box":{"fill-opacity":0.3}}*/);
+    });
 
-var data = [1,[2,3,4],1,[[2,3],[6,7,1]]]; 
-results = calcArea(data,60);
-console.log(results);
 </script>
-
 </body>
 </html>
