@@ -63,7 +63,6 @@ function drawAbox(paper,coordinates,label,boxstyle,labelstyle,averageLen,color){
 
     var text = paper.text((coordinates[0]+coordinates[2])/2,(coordinates[1]+coordinates[3])/2,label);
     labelstyle["font-size"] = CalcTextStyle(averageLen,width*height);
-    console.log(labelstyle);
     text.attr(labelstyle);
 
     if(text.getBBox().width > width && text.getBBox().width <= height) { //根据box的情况，决定text要不要转置
@@ -94,8 +93,11 @@ function oneLevelCoos(arr){
     return true;
 }
 function zoomIn(boxes,pos){ //pos为0表示头，pos为1表示尾部
+    if(boxes.length == 0){
+        throw "Error"; 
+    }
     var idx = (pos == 0 )? 0:boxes.length-1;
-    if(isCoo(boxes[idx])){
+    if(!isCoo(boxes[idx])){
         return zoomIn(boxes[idx]);
     }
     return boxes[idx];
@@ -103,10 +105,9 @@ function zoomIn(boxes,pos){ //pos为0表示头，pos为1表示尾部
 function Drawer(paper,boxes,labels,nowstyle,level,averageLen){
     var i;
     var color = colors[level%3][Math.round(Math.random()*6)];
-    var first = zoomIn(boxes,0),last = zoomIn(boxes,1);
+    //var first = zoomIn(boxes,0),last = zoomIn(boxes,1);
     //first[0],first[1],last[2]-first[0],last[3]-first[1]
-    var light = paper.rect(0,0,700,500).attr('stroke',"#FF5733");
-    light.glow().attr('stroke','#FF5733');
+    //console.log("light_area",first[0],first[1],last[2]-first[0],last[3]-first[1])
     if(oneLevelCoos(boxes)){
         for(i=0;i<boxes.length;i++){
             //Math.round(Math.random()*4)获取0或4的概率少一个半。

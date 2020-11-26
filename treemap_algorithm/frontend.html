@@ -1,0 +1,37 @@
+
+
+
+
+    <html>
+
+        <head>
+            <title>for frontend</title>
+        </head>
+        <body>
+        
+        <div id="show"></div>
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="raphael-min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var paper = new Raphael("show",1000,1000);
+                /*
+                var light = paper.rect(0,0,500,700).attr('stroke',"#AF0");
+                light.hover(
+                    function() {
+                        light.glow().attr({'stroke': "#FF5733",'stroke-width' : 10});
+                        //this.g = this.glow({color: "#0F0", width: 100});
+                    }, function() {
+                        this.g.remove();
+                });
+                */
+                var c = paper.circle(10, 10, 10);
+                c.node.onclick = function () {
+                    c.attr("fill", "red");
+                };
+            });
+        
+        </script>
+        </body>
+        </html>
