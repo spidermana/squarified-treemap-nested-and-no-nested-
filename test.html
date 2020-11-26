@@ -10,17 +10,19 @@
 </head>
 <body>
 
-<div id="example-1"></div>
+<div id="test"></div>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="raphael-min.js"></script>
 <script type="text/javascript" src="squarified-treemap.js"></script>
-<script type="text/javascript" src="raphael_for_treemap.js"></script>
+<script type="text/javascript" src="raphael-vis-treemap.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-        var data = [6,6,4,3,2,2,1];
-        var labels = ["Paris","London", "New York", "Moscow", "Berlin","tsinghua", "Tokyo"];
-        draw("example-1", 600, 400, data, labels/*,{"box":{"fill-opacity":0.3}}*/);
+        //var data = [6,[[6,6],[5,5]],4,3,[2,2,2],1];
+        //var labels = ["Paris","London", "New York", "Moscow", "Berlin","tsinghua", "Tokyo"];
+        var data = [6, 6,4,3,[2,2],1];
+        var labels = ["Paris","London", "New York", "Moscow", ["Berlin","tsinghua"], "Tokyo"];
+        TreemapDraw("test",data,labels, 600, 400/*,{"box":{"fill-opacity":0.3}}*/);
     });
 
 </script>

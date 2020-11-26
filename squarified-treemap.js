@@ -114,7 +114,7 @@ function nestedSquarifiedTreemap(mareas,xcoo,ycoo,width,height){    //②
     var tempAreas = [];
     var res = [];
     var needNested = 0;
-    var i = 0;
+    var i = 0,j = 0;
     var len = mareas.length;
     if(len == 0)
         return;
@@ -129,14 +129,25 @@ function nestedSquarifiedTreemap(mareas,xcoo,ycoo,width,height){    //②
     }
     console.log("tempAreas",tempAreas);
     treemapCoos = noNestedSquarifiedTreemap(tempAreas,xcoo,ycoo,width,height);
+    console.log("treemapCoos",treemapCoos);
     if(needNested){
         for(i = 0; i < len; i++){
             if(isArray(mareas[i])){
                 res.push(nestedSquarifiedTreemap(mareas[i],treemapCoos[i][0],treemapCoos[i][1],treemapCoos[i][2]-treemapCoos[i][0],treemapCoos[i][3]-treemapCoos[i][1]));
+                /*
+                var tempCoos = nestedSquarifiedTreemap(mareas[i],treemapCoos[i][0],treemapCoos[i][1],treemapCoos[i][2]-treemapCoos[i][0],treemapCoos[i][3]-treemapCoos[i][1]);
+                for(j=0;j< tempCoos.length;j++){
+                    res.push(tempCoos[j]);
+                }
+                */
+                console.log("array_res",res);
+            }else{
+                res.push(treemapCoos[i]);
+                console.log("common_res",res);
             }
         }
+        
     }else{
-        console.log("treemapCoos",treemapCoos);
         res = treemapCoos;
     }
     return res;
@@ -152,7 +163,7 @@ function unfoldSquare(rawTreemaps){
             res.push(rawTreemaps[i][j]);
         }
     }
-    console.log("rawTreemaps",res);
+    //console.log("rawTreemaps",res);
     return res;
 }
 
@@ -178,16 +189,16 @@ function squarify(areas,nrow,remainder,saver){
     var head = areas[0];
     var newRemainder;
     if((nrow.length == 0 && nrow.push(head)) || worst(nrow,remainder.shorterEdge()) > (nrow.push(head),worst(nrow,remainder.shorterEdge()))){
-        console.log("nrow",nrow,nrow.length);
+        //console.log("nrow",nrow,nrow.length);
         squarify(areas.slice(1),nrow,remainder,saver);
     }else{
         //pop尾部
         nrow.pop();
-        console.log("pop_nrow",nrow,nrow.length);
+        //console.log("pop_nrow",nrow,nrow.length);
         newRemainder = remainder.nextRemainder(nrow);
         saver.push(remainder.saveRectCoordinates(nrow));
         squarify(areas,[],newRemainder,saver);
     }
-    console.log(saver);
+    //console.log(saver);
     return saver;
 }
