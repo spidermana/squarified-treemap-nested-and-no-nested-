@@ -1,0 +1,2649 @@
+{
+    "children": [
+        {
+            "name": "BeiJing",
+            "children": [
+                {
+                    "name": "DongChengQu",
+                    "value": 28,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiChengQu",
+                    "value": 41,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChongWenQu",
+                    "value": 80,
+                    "colname": "City"
+                },
+                {
+                    "name": "XuanWuQu",
+                    "value": 65,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChaoYangQu",
+                    "value": 44,
+                    "colname": "City"
+                },
+                {
+                    "name": "FengTaiQu",
+                    "value": 14,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShiJingShanQu",
+                    "value": 46,
+                    "colname": "City"
+                },
+                {
+                    "name": "HaiDianQu",
+                    "value": 45,
+                    "colname": "City"
+                },
+                {
+                    "name": "MenTouGouQu",
+                    "value": 77,
+                    "colname": "City"
+                },
+                {
+                    "name": "FangShanQu",
+                    "value": 66,
+                    "colname": "City"
+                },
+                {
+                    "name": "TongZhouQu",
+                    "value": 74,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShunYiQu",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChangPingQu",
+                    "value": 41,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaXingQu",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "PingGuQu",
+                    "value": 55,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuaiRouQu",
+                    "value": 52,
+                    "colname": "City"
+                },
+                {
+                    "name": "MiYunXian",
+                    "value": 86,
+                    "colname": "City"
+                },
+                {
+                    "name": "YanQingXian",
+                    "value": 67,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "TianJin",
+            "children": [
+                {
+                    "name": "HePingQu",
+                    "value": 80,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeDongQu",
+                    "value": 71,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeXiQu",
+                    "value": 47,
+                    "colname": "City"
+                },
+                {
+                    "name": "NanKaiQu",
+                    "value": 61,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeBeiQu",
+                    "value": 87,
+                    "colname": "City"
+                },
+                {
+                    "name": "HongJiaoQu",
+                    "value": 42,
+                    "colname": "City"
+                },
+                {
+                    "name": "BinHaiXinQu",
+                    "value": 54,
+                    "colname": "City"
+                },
+                {
+                    "name": "DongLiQu",
+                    "value": 14,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiQingQu",
+                    "value": 52,
+                    "colname": "City"
+                },
+                {
+                    "name": "JinNanQu",
+                    "value": 62,
+                    "colname": "City"
+                },
+                {
+                    "name": "BeiChenQu",
+                    "value": 82,
+                    "colname": "City"
+                },
+                {
+                    "name": "NingHeQu",
+                    "value": 26,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuQingQu",
+                    "value": 40,
+                    "colname": "City"
+                },
+                {
+                    "name": "JingHaiXian",
+                    "value": 13,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaoDiQu",
+                    "value": 73,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiXian",
+                    "value": 41,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "HeBei",
+            "children": [
+                {
+                    "name": "ShiJiaZhuang",
+                    "value": 83,
+                    "colname": "City"
+                },
+                {
+                    "name": "TangShan",
+                    "value": 49,
+                    "colname": "City"
+                },
+                {
+                    "name": "QinHuangDao",
+                    "value": 57,
+                    "colname": "City"
+                },
+                {
+                    "name": "HanDan",
+                    "value": 27,
+                    "colname": "City"
+                },
+                {
+                    "name": "XingTai",
+                    "value": 57,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaoDing",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhangJiaKou",
+                    "value": 31,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChengDe",
+                    "value": 40,
+                    "colname": "City"
+                },
+                {
+                    "name": "CangZhou",
+                    "value": 76,
+                    "colname": "City"
+                },
+                {
+                    "name": "LangFang",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "HengShui",
+                    "value": 24,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "ShanXi",
+            "children": [
+                {
+                    "name": "TaiYuan",
+                    "value": 64,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaTong",
+                    "value": 89,
+                    "colname": "City"
+                },
+                {
+                    "name": "YangQuan",
+                    "value": 64,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhangZhi",
+                    "value": 83,
+                    "colname": "City"
+                },
+                {
+                    "name": "JinCheng",
+                    "value": 47,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShuoZhou",
+                    "value": 52,
+                    "colname": "City"
+                },
+                {
+                    "name": "JinZhong",
+                    "value": 61,
+                    "colname": "City"
+                },
+                {
+                    "name": "YunCheng",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "XinZhou",
+                    "value": 18,
+                    "colname": "City"
+                },
+                {
+                    "name": "LinFen",
+                    "value": 64,
+                    "colname": "City"
+                },
+                {
+                    "name": "LvLiang",
+                    "value": 20,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "NeiMengGu",
+            "children": [
+                {
+                    "name": "HuHeHaoTe",
+                    "value": 65,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaoTou",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuHai",
+                    "value": 55,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChiFeng",
+                    "value": 63,
+                    "colname": "City"
+                },
+                {
+                    "name": "TongLiao",
+                    "value": 86,
+                    "colname": "City"
+                },
+                {
+                    "name": "EErDuoSi",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuLunBeiEr",
+                    "value": 76,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaYanNaoEr",
+                    "value": 41,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuLanChaBu",
+                    "value": 79,
+                    "colname": "City"
+                },
+                {
+                    "name": "XingAn",
+                    "value": 64,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiLinGuoLei",
+                    "value": 73,
+                    "colname": "City"
+                },
+                {
+                    "name": "ALaShan",
+                    "value": 75,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "LiaoNing",
+            "children": [
+                {
+                    "name": "ShenYang",
+                    "value": 87,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaLian",
+                    "value": 42,
+                    "colname": "City"
+                },
+                {
+                    "name": "AnShan",
+                    "value": 69,
+                    "colname": "City"
+                },
+                {
+                    "name": "FuShun",
+                    "value": 11,
+                    "colname": "City"
+                },
+                {
+                    "name": "BenXi",
+                    "value": 59,
+                    "colname": "City"
+                },
+                {
+                    "name": "DanDong",
+                    "value": 45,
+                    "colname": "City"
+                },
+                {
+                    "name": "JinZhou",
+                    "value": 52,
+                    "colname": "City"
+                },
+                {
+                    "name": "YingKou",
+                    "value": 25,
+                    "colname": "City"
+                },
+                {
+                    "name": "FuXin",
+                    "value": 17,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiaoYang",
+                    "value": 34,
+                    "colname": "City"
+                },
+                {
+                    "name": "PanJin",
+                    "value": 43,
+                    "colname": "City"
+                },
+                {
+                    "name": "TieLing",
+                    "value": 87,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhaoYang",
+                    "value": 62,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuLuDao",
+                    "value": 13,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "JiLin",
+            "children": [
+                {
+                    "name": "ChangChun",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiLin",
+                    "value": 31,
+                    "colname": "City"
+                },
+                {
+                    "name": "SiPing",
+                    "value": 24,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiaoYuan",
+                    "value": 34,
+                    "colname": "City"
+                },
+                {
+                    "name": "TongHua",
+                    "value": 30,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaiShan",
+                    "value": 10,
+                    "colname": "City"
+                },
+                {
+                    "name": "SongYuan",
+                    "value": 10,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaiCheng",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "YanBian",
+                    "value": 46,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "HeiLongJiang",
+            "children": [
+                {
+                    "name": "HaErBin",
+                    "value": 64,
+                    "colname": "City"
+                },
+                {
+                    "name": "QiQiHaEr",
+                    "value": 40,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiXi",
+                    "value": 54,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeGang",
+                    "value": 84,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShuangYaShan",
+                    "value": 26,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaQing",
+                    "value": 36,
+                    "colname": "City"
+                },
+                {
+                    "name": "YiChun",
+                    "value": 66,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiaMuSi",
+                    "value": 46,
+                    "colname": "City"
+                },
+                {
+                    "name": "QiTaiHe",
+                    "value": 23,
+                    "colname": "City"
+                },
+                {
+                    "name": "MuDanJiang",
+                    "value": 68,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeiHe",
+                    "value": 62,
+                    "colname": "City"
+                },
+                {
+                    "name": "SuiHua",
+                    "value": 88,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaXingAnLing",
+                    "value": 12,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "ShangHai",
+            "children": [
+                {
+                    "name": "HuangPuQu",
+                    "value": 18,
+                    "colname": "City"
+                },
+                {
+                    "name": "LuWanQu",
+                    "value": 56,
+                    "colname": "City"
+                },
+                {
+                    "name": "XuHuiQu",
+                    "value": 64,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhangNingQu",
+                    "value": 14,
+                    "colname": "City"
+                },
+                {
+                    "name": "JingAnQu",
+                    "value": 20,
+                    "colname": "City"
+                },
+                {
+                    "name": "PuTuoQu",
+                    "value": 35,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhaBeiQu",
+                    "value": 57,
+                    "colname": "City"
+                },
+                {
+                    "name": "HongKouQu",
+                    "value": 82,
+                    "colname": "City"
+                },
+                {
+                    "name": "YangPuQu",
+                    "value": 42,
+                    "colname": "City"
+                },
+                {
+                    "name": "MinXingQu",
+                    "value": 39,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaoShanQu",
+                    "value": 43,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiaDingQu",
+                    "value": 77,
+                    "colname": "City"
+                },
+                {
+                    "name": "PuDongXinQu",
+                    "value": 78,
+                    "colname": "City"
+                },
+                {
+                    "name": "JinShanQu",
+                    "value": 49,
+                    "colname": "City"
+                },
+                {
+                    "name": "SongJiangQu",
+                    "value": 32,
+                    "colname": "City"
+                },
+                {
+                    "name": "FengXianQu",
+                    "value": 89,
+                    "colname": "City"
+                },
+                {
+                    "name": "QingPuQu",
+                    "value": 23,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChongMingXian",
+                    "value": 39,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "JiangSu",
+            "children": [
+                {
+                    "name": "NanJing",
+                    "value": 45,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuXi",
+                    "value": 10,
+                    "colname": "City"
+                },
+                {
+                    "name": "XuZhou",
+                    "value": 40,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChangZhou",
+                    "value": 84,
+                    "colname": "City"
+                },
+                {
+                    "name": "SuZhou",
+                    "value": 73,
+                    "colname": "City"
+                },
+                {
+                    "name": "NanTong",
+                    "value": 63,
+                    "colname": "City"
+                },
+                {
+                    "name": "LianYunGang",
+                    "value": 32,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuaiAn",
+                    "value": 71,
+                    "colname": "City"
+                },
+                {
+                    "name": "YanCheng",
+                    "value": 32,
+                    "colname": "City"
+                },
+                {
+                    "name": "YangZhou",
+                    "value": 29,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhenJiang",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaiZhou",
+                    "value": 17,
+                    "colname": "City"
+                },
+                {
+                    "name": "SuQian",
+                    "value": 64,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "ZheJiang",
+            "children": [
+                {
+                    "name": "HangZhou",
+                    "value": 83,
+                    "colname": "City"
+                },
+                {
+                    "name": "NingBo",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "WenZhou",
+                    "value": 70,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiaXing",
+                    "value": 81,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuZhou",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShaoXing",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "JinHua",
+                    "value": 48,
+                    "colname": "City"
+                },
+                {
+                    "name": "QuZhou",
+                    "value": 58,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhouShan",
+                    "value": 14,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaiZhou",
+                    "value": 78,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiShui",
+                    "value": 56,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "AnHui",
+            "children": [
+                {
+                    "name": "HeFei",
+                    "value": 43,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuHu",
+                    "value": 52,
+                    "colname": "City"
+                },
+                {
+                    "name": "BengBu",
+                    "value": 68,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuaiNan",
+                    "value": 61,
+                    "colname": "City"
+                },
+                {
+                    "name": "MaAnShan",
+                    "value": 86,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuaiBei",
+                    "value": 80,
+                    "colname": "City"
+                },
+                {
+                    "name": "TongLing",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "AnQing",
+                    "value": 58,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuangShan",
+                    "value": 64,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChuZhou",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "FuYang",
+                    "value": 34,
+                    "colname": "City"
+                },
+                {
+                    "name": "SuZhou",
+                    "value": 78,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChaoHu",
+                    "value": 48,
+                    "colname": "City"
+                },
+                {
+                    "name": "LuAn",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "BoZhou",
+                    "value": 21,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChiZhou",
+                    "value": 23,
+                    "colname": "City"
+                },
+                {
+                    "name": "XuanCheng",
+                    "value": 32,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "FuJian",
+            "children": [
+                {
+                    "name": "FuZhou",
+                    "value": 45,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiaMen",
+                    "value": 76,
+                    "colname": "City"
+                },
+                {
+                    "name": "PuTian",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "SanMing",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "QuanZhou",
+                    "value": 27,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhangZhou",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "NanPing",
+                    "value": 80,
+                    "colname": "City"
+                },
+                {
+                    "name": "LongYan",
+                    "value": 56,
+                    "colname": "City"
+                },
+                {
+                    "name": "NingDe",
+                    "value": 80,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "JiangXi",
+            "children": [
+                {
+                    "name": "NanChang",
+                    "value": 41,
+                    "colname": "City"
+                },
+                {
+                    "name": "JingDeZhen",
+                    "value": 88,
+                    "colname": "City"
+                },
+                {
+                    "name": "PingXiang",
+                    "value": 36,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiuJiang",
+                    "value": 84,
+                    "colname": "City"
+                },
+                {
+                    "name": "XinYu",
+                    "value": 30,
+                    "colname": "City"
+                },
+                {
+                    "name": "YingTan",
+                    "value": 61,
+                    "colname": "City"
+                },
+                {
+                    "name": "GanZhou",
+                    "value": 28,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiAn",
+                    "value": 83,
+                    "colname": "City"
+                },
+                {
+                    "name": "YiChun",
+                    "value": 49,
+                    "colname": "City"
+                },
+                {
+                    "name": "FuZhou",
+                    "value": 72,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShangRao",
+                    "value": 54,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "ShanDong",
+            "children": [
+                {
+                    "name": "JiNan",
+                    "value": 68,
+                    "colname": "City"
+                },
+                {
+                    "name": "QingDao",
+                    "value": 89,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZiBo",
+                    "value": 90,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZaoZhuang",
+                    "value": 73,
+                    "colname": "City"
+                },
+                {
+                    "name": "DongYing",
+                    "value": 70,
+                    "colname": "City"
+                },
+                {
+                    "name": "YanTai",
+                    "value": 86,
+                    "colname": "City"
+                },
+                {
+                    "name": "WeiFang",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiNing",
+                    "value": 11,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaiAn",
+                    "value": 42,
+                    "colname": "City"
+                },
+                {
+                    "name": "WeiHai",
+                    "value": 24,
+                    "colname": "City"
+                },
+                {
+                    "name": "RiZhao",
+                    "value": 74,
+                    "colname": "City"
+                },
+                {
+                    "name": "LaiWu",
+                    "value": 57,
+                    "colname": "City"
+                },
+                {
+                    "name": "LinYi",
+                    "value": 48,
+                    "colname": "City"
+                },
+                {
+                    "name": "DeZhou",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiaoCheng",
+                    "value": 29,
+                    "colname": "City"
+                },
+                {
+                    "name": "BinZhou",
+                    "value": 65,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeZe",
+                    "value": 67,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "HeNan",
+            "children": [
+                {
+                    "name": "ZhengZhou",
+                    "value": 61,
+                    "colname": "City"
+                },
+                {
+                    "name": "KaiFeng",
+                    "value": 40,
+                    "colname": "City"
+                },
+                {
+                    "name": "LuoYang",
+                    "value": 59,
+                    "colname": "City"
+                },
+                {
+                    "name": "PingDingShan",
+                    "value": 54,
+                    "colname": "City"
+                },
+                {
+                    "name": "AnYang",
+                    "value": 25,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeBi",
+                    "value": 88,
+                    "colname": "City"
+                },
+                {
+                    "name": "XinXiang",
+                    "value": 88,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiaoZuo",
+                    "value": 40,
+                    "colname": "City"
+                },
+                {
+                    "name": "PuYang",
+                    "value": 89,
+                    "colname": "City"
+                },
+                {
+                    "name": "XuChang",
+                    "value": 62,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaHe",
+                    "value": 66,
+                    "colname": "City"
+                },
+                {
+                    "name": "SanMenXia",
+                    "value": 11,
+                    "colname": "City"
+                },
+                {
+                    "name": "NanYang",
+                    "value": 57,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShangQiu",
+                    "value": 90,
+                    "colname": "City"
+                },
+                {
+                    "name": "XinYang",
+                    "value": 29,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhouKou",
+                    "value": 16,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhuMaDian",
+                    "value": 49,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiYuan",
+                    "value": 48,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "HuBei",
+            "children": [
+                {
+                    "name": "WuHan",
+                    "value": 53,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuangShi",
+                    "value": 10,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShiYan",
+                    "value": 50,
+                    "colname": "City"
+                },
+                {
+                    "name": "YiChang",
+                    "value": 35,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiangFan",
+                    "value": 86,
+                    "colname": "City"
+                },
+                {
+                    "name": "EZhou",
+                    "value": 83,
+                    "colname": "City"
+                },
+                {
+                    "name": "JingMen",
+                    "value": 58,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiaoGan",
+                    "value": 12,
+                    "colname": "City"
+                },
+                {
+                    "name": "JingZhou",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuangGang",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "XianNing",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "SuiZhou",
+                    "value": 29,
+                    "colname": "City"
+                },
+                {
+                    "name": "EnShi",
+                    "value": 87,
+                    "colname": "City"
+                },
+                {
+                    "name": "XianTao",
+                    "value": 17,
+                    "colname": "City"
+                },
+                {
+                    "name": "QianJiang",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "TianMen",
+                    "value": 45,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShenNongJia",
+                    "value": 10,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "HuNan",
+            "children": [
+                {
+                    "name": "ChangSha",
+                    "value": 70,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhuZhou",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiangTan",
+                    "value": 42,
+                    "colname": "City"
+                },
+                {
+                    "name": "HengYang",
+                    "value": 55,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShaoYang",
+                    "value": 71,
+                    "colname": "City"
+                },
+                {
+                    "name": "YueYang",
+                    "value": 55,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChangDe",
+                    "value": 78,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhangJiaJie",
+                    "value": 16,
+                    "colname": "City"
+                },
+                {
+                    "name": "YiYang",
+                    "value": 90,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChenZhou",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "YongZhou",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuaiHua",
+                    "value": 55,
+                    "colname": "City"
+                },
+                {
+                    "name": "LouDi",
+                    "value": 77,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiangXi",
+                    "value": 21,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "GuangDong",
+            "children": [
+                {
+                    "name": "GuangZhou",
+                    "value": 17,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShaoGuan",
+                    "value": 32,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShenZhen",
+                    "value": 25,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhuHai",
+                    "value": 58,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShanTou",
+                    "value": 32,
+                    "colname": "City"
+                },
+                {
+                    "name": "FoShan",
+                    "value": 14,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiangMen",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhanJiang",
+                    "value": 70,
+                    "colname": "City"
+                },
+                {
+                    "name": "MaoMing",
+                    "value": 37,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhaoQing",
+                    "value": 70,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuiZhou",
+                    "value": 28,
+                    "colname": "City"
+                },
+                {
+                    "name": "MeiZhou",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShanWei",
+                    "value": 88,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeYuan",
+                    "value": 26,
+                    "colname": "City"
+                },
+                {
+                    "name": "YangJiang",
+                    "value": 15,
+                    "colname": "City"
+                },
+                {
+                    "name": "QingYuan",
+                    "value": 63,
+                    "colname": "City"
+                },
+                {
+                    "name": "DongGuan",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhongShan",
+                    "value": 30,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChaoZhou",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "JieYang",
+                    "value": 55,
+                    "colname": "City"
+                },
+                {
+                    "name": "YunFu",
+                    "value": 53,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "GuangXi",
+            "children": [
+                {
+                    "name": "NanNing",
+                    "value": 61,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiuZhou",
+                    "value": 78,
+                    "colname": "City"
+                },
+                {
+                    "name": "GuiLin",
+                    "value": 58,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuZhou",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "BeiHai",
+                    "value": 10,
+                    "colname": "City"
+                },
+                {
+                    "name": "FangChengGang",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "QinZhou",
+                    "value": 86,
+                    "colname": "City"
+                },
+                {
+                    "name": "GuiGang",
+                    "value": 80,
+                    "colname": "City"
+                },
+                {
+                    "name": "YuLin",
+                    "value": 83,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaiSe",
+                    "value": 77,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeZhou",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeChi",
+                    "value": 20,
+                    "colname": "City"
+                },
+                {
+                    "name": "LaiBin",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChongZuo",
+                    "value": 11,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "HaiNan",
+            "children": [
+                {
+                    "name": "HaiKou",
+                    "value": 79,
+                    "colname": "City"
+                },
+                {
+                    "name": "SanYa",
+                    "value": 32,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuZhiShan",
+                    "value": 47,
+                    "colname": "City"
+                },
+                {
+                    "name": "QiongHai",
+                    "value": 29,
+                    "colname": "City"
+                },
+                {
+                    "name": "DanZhou",
+                    "value": 42,
+                    "colname": "City"
+                },
+                {
+                    "name": "WenChang",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "WanNing",
+                    "value": 30,
+                    "colname": "City"
+                },
+                {
+                    "name": "DongFang",
+                    "value": 15,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "ChongQing",
+            "children": [
+                {
+                    "name": "WanZhouQu",
+                    "value": 10,
+                    "colname": "City"
+                },
+                {
+                    "name": "FuLingQu",
+                    "value": 37,
+                    "colname": "City"
+                },
+                {
+                    "name": "YuZhongQu",
+                    "value": 45,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaDuKouQu",
+                    "value": 56,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiangBeiQu",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShaPingBaQu",
+                    "value": 52,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiuLongPoQu",
+                    "value": 11,
+                    "colname": "City"
+                },
+                {
+                    "name": "NanAnQu",
+                    "value": 52,
+                    "colname": "City"
+                },
+                {
+                    "name": "BeiBeiQu",
+                    "value": 76,
+                    "colname": "City"
+                },
+                {
+                    "name": "WanShengQu",
+                    "value": 77,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShuangJiaoQu",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "YuBeiQu",
+                    "value": 61,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaNanQu",
+                    "value": 18,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChangShouQu",
+                    "value": 17,
+                    "colname": "City"
+                },
+                {
+                    "name": "QiJiangXian",
+                    "value": 36,
+                    "colname": "City"
+                },
+                {
+                    "name": "TongNanXian",
+                    "value": 50,
+                    "colname": "City"
+                },
+                {
+                    "name": "TongLiangXian",
+                    "value": 83,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaZuXian",
+                    "value": 53,
+                    "colname": "City"
+                },
+                {
+                    "name": "RongChangXian",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "BiShanXian",
+                    "value": 30,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiangPingXian",
+                    "value": 43,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChengKouXian",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "FengDouXian",
+                    "value": 29,
+                    "colname": "City"
+                },
+                {
+                    "name": "DianJiangXian",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuLongXian",
+                    "value": 80,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhongXian",
+                    "value": 68,
+                    "colname": "City"
+                },
+                {
+                    "name": "KaiXian",
+                    "value": 21,
+                    "colname": "City"
+                },
+                {
+                    "name": "YunYangXian",
+                    "value": 16,
+                    "colname": "City"
+                },
+                {
+                    "name": "FengJieXian",
+                    "value": 88,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuShanXian",
+                    "value": 52,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuXiXian",
+                    "value": 68,
+                    "colname": "City"
+                },
+                {
+                    "name": "QianJiangQu",
+                    "value": 70,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShiZhuTuJiaZuZiZhiXian",
+                    "value": 62,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiuShanTuJiaZuMiaoZuZiZhiXian",
+                    "value": 35,
+                    "colname": "City"
+                },
+                {
+                    "name": "YouYangTuJiaZuMiaoZuZiZhiXian",
+                    "value": 54,
+                    "colname": "City"
+                },
+                {
+                    "name": "PengShuiMiaoZuTuJiaZuZiZhiXian",
+                    "value": 74,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiangJinQu",
+                    "value": 41,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeChuanQu",
+                    "value": 70,
+                    "colname": "City"
+                },
+                {
+                    "name": "YongChuanQu",
+                    "value": 34,
+                    "colname": "City"
+                },
+                {
+                    "name": "NanChuanQu",
+                    "value": 24,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "SiChuan",
+            "children": [
+                {
+                    "name": "ChengDu",
+                    "value": 74,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZiGong",
+                    "value": 13,
+                    "colname": "City"
+                },
+                {
+                    "name": "PanZhiHua",
+                    "value": 31,
+                    "colname": "City"
+                },
+                {
+                    "name": "LuZhou",
+                    "value": 71,
+                    "colname": "City"
+                },
+                {
+                    "name": "DeYang",
+                    "value": 62,
+                    "colname": "City"
+                },
+                {
+                    "name": "MianYang",
+                    "value": 51,
+                    "colname": "City"
+                },
+                {
+                    "name": "GuangYuan",
+                    "value": 39,
+                    "colname": "City"
+                },
+                {
+                    "name": "SuiNing",
+                    "value": 37,
+                    "colname": "City"
+                },
+                {
+                    "name": "NeiJiang",
+                    "value": 40,
+                    "colname": "City"
+                },
+                {
+                    "name": "LeShan",
+                    "value": 53,
+                    "colname": "City"
+                },
+                {
+                    "name": "NanChong",
+                    "value": 67,
+                    "colname": "City"
+                },
+                {
+                    "name": "MeiShan",
+                    "value": 82,
+                    "colname": "City"
+                },
+                {
+                    "name": "YiBin",
+                    "value": 74,
+                    "colname": "City"
+                },
+                {
+                    "name": "GuangAn",
+                    "value": 66,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaChuan",
+                    "value": 30,
+                    "colname": "City"
+                },
+                {
+                    "name": "YaAn",
+                    "value": 64,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaZhong",
+                    "value": 35,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZiYang",
+                    "value": 34,
+                    "colname": "City"
+                },
+                {
+                    "name": "ABa",
+                    "value": 13,
+                    "colname": "City"
+                },
+                {
+                    "name": "GanZi",
+                    "value": 53,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiangShan",
+                    "value": 22,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "GuiZhou",
+            "children": [
+                {
+                    "name": "GuiYang",
+                    "value": 58,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiuPanShui",
+                    "value": 53,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZunYi",
+                    "value": 20,
+                    "colname": "City"
+                },
+                {
+                    "name": "AnShun",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "TongRen",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "QianXiNan",
+                    "value": 76,
+                    "colname": "City"
+                },
+                {
+                    "name": "BiJie",
+                    "value": 87,
+                    "colname": "City"
+                },
+                {
+                    "name": "QianDongNan",
+                    "value": 76,
+                    "colname": "City"
+                },
+                {
+                    "name": "QianNan",
+                    "value": 72,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "YunNan",
+            "children": [
+                {
+                    "name": "KunMing",
+                    "value": 44,
+                    "colname": "City"
+                },
+                {
+                    "name": "QuJing",
+                    "value": 20,
+                    "colname": "City"
+                },
+                {
+                    "name": "YuXi",
+                    "value": 39,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaoShan",
+                    "value": 87,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhaoTong",
+                    "value": 79,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiJiang",
+                    "value": 45,
+                    "colname": "City"
+                },
+                {
+                    "name": "PuEr",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "LinCang",
+                    "value": 16,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChuXiong",
+                    "value": 86,
+                    "colname": "City"
+                },
+                {
+                    "name": "HongHe",
+                    "value": 88,
+                    "colname": "City"
+                },
+                {
+                    "name": "WenShan",
+                    "value": 19,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiShuangBanNa",
+                    "value": 59,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaLi",
+                    "value": 17,
+                    "colname": "City"
+                },
+                {
+                    "name": "DeHong",
+                    "value": 13,
+                    "colname": "City"
+                },
+                {
+                    "name": "NuJiangLi",
+                    "value": 45,
+                    "colname": "City"
+                },
+                {
+                    "name": "DiQing",
+                    "value": 71,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "XiZang",
+            "children": [
+                {
+                    "name": "LaSa",
+                    "value": 86,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChangDou",
+                    "value": 24,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShanNan",
+                    "value": 44,
+                    "colname": "City"
+                },
+                {
+                    "name": "RiKaZe",
+                    "value": 71,
+                    "colname": "City"
+                },
+                {
+                    "name": "NaQu",
+                    "value": 20,
+                    "colname": "City"
+                },
+                {
+                    "name": "ALi",
+                    "value": 87,
+                    "colname": "City"
+                },
+                {
+                    "name": "LinZhi",
+                    "value": 40,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "ShanXi",
+            "children": [
+                {
+                    "name": "XiAn",
+                    "value": 62,
+                    "colname": "City"
+                },
+                {
+                    "name": "TongChuan",
+                    "value": 45,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaoJi",
+                    "value": 72,
+                    "colname": "City"
+                },
+                {
+                    "name": "XianYang",
+                    "value": 68,
+                    "colname": "City"
+                },
+                {
+                    "name": "WeiNan",
+                    "value": 42,
+                    "colname": "City"
+                },
+                {
+                    "name": "YanAn",
+                    "value": 35,
+                    "colname": "City"
+                },
+                {
+                    "name": "HanZhong",
+                    "value": 15,
+                    "colname": "City"
+                },
+                {
+                    "name": "YuLin",
+                    "value": 77,
+                    "colname": "City"
+                },
+                {
+                    "name": "AnKang",
+                    "value": 82,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShangLuo",
+                    "value": 63,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "GanSu",
+            "children": [
+                {
+                    "name": "LanZhou",
+                    "value": 72,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiaYuGuan",
+                    "value": 74,
+                    "colname": "City"
+                },
+                {
+                    "name": "JinChang",
+                    "value": 78,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaiYin",
+                    "value": 70,
+                    "colname": "City"
+                },
+                {
+                    "name": "TianShui",
+                    "value": 11,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuWei",
+                    "value": 67,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhangYe",
+                    "value": 43,
+                    "colname": "City"
+                },
+                {
+                    "name": "PingLiang",
+                    "value": 35,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiuQuan",
+                    "value": 63,
+                    "colname": "City"
+                },
+                {
+                    "name": "QingYang",
+                    "value": 18,
+                    "colname": "City"
+                },
+                {
+                    "name": "DingXi",
+                    "value": 62,
+                    "colname": "City"
+                },
+                {
+                    "name": "LongNan",
+                    "value": 54,
+                    "colname": "City"
+                },
+                {
+                    "name": "LinXia",
+                    "value": 79,
+                    "colname": "City"
+                },
+                {
+                    "name": "GanNan",
+                    "value": 86,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "QingHai",
+            "children": [
+                {
+                    "name": "XiNing",
+                    "value": 74,
+                    "colname": "City"
+                },
+                {
+                    "name": "HaiDong",
+                    "value": 88,
+                    "colname": "City"
+                },
+                {
+                    "name": "HaiBei",
+                    "value": 15,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuangNan",
+                    "value": 12,
+                    "colname": "City"
+                },
+                {
+                    "name": "HaiNan",
+                    "value": 37,
+                    "colname": "City"
+                },
+                {
+                    "name": "GuoLuo",
+                    "value": 44,
+                    "colname": "City"
+                },
+                {
+                    "name": "YuShu",
+                    "value": 39,
+                    "colname": "City"
+                },
+                {
+                    "name": "MeiXi",
+                    "value": 35,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "NingXia",
+            "children": [
+                {
+                    "name": "YinChuan",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShiZuiShan",
+                    "value": 41,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuZhong",
+                    "value": 26,
+                    "colname": "City"
+                },
+                {
+                    "name": "GuYuan",
+                    "value": 74,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhongWei",
+                    "value": 54,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "XinJiang",
+            "children": [
+                {
+                    "name": "WuLuMuQi",
+                    "value": 69,
+                    "colname": "City"
+                },
+                {
+                    "name": "KeLaMaYi",
+                    "value": 51,
+                    "colname": "City"
+                },
+                {
+                    "name": "TuLuFan",
+                    "value": 68,
+                    "colname": "City"
+                },
+                {
+                    "name": "HaMi",
+                    "value": 55,
+                    "colname": "City"
+                },
+                {
+                    "name": "ChangJi",
+                    "value": 84,
+                    "colname": "City"
+                },
+                {
+                    "name": "BoErTaLa",
+                    "value": 15,
+                    "colname": "City"
+                },
+                {
+                    "name": "BaYinGuoLeng",
+                    "value": 39,
+                    "colname": "City"
+                },
+                {
+                    "name": "AKeSu",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "KeZiLeiSu",
+                    "value": 74,
+                    "colname": "City"
+                },
+                {
+                    "name": "KaShi",
+                    "value": 87,
+                    "colname": "City"
+                },
+                {
+                    "name": "HeTian",
+                    "value": 34,
+                    "colname": "City"
+                },
+                {
+                    "name": "YiLi",
+                    "value": 83,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaCheng",
+                    "value": 22,
+                    "colname": "City"
+                },
+                {
+                    "name": "ALeiTai",
+                    "value": 47,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShiHeZi",
+                    "value": 39,
+                    "colname": "City"
+                },
+                {
+                    "name": "ALaEr",
+                    "value": 84,
+                    "colname": "City"
+                },
+                {
+                    "name": "TuMuShuKe",
+                    "value": 84,
+                    "colname": "City"
+                },
+                {
+                    "name": "WuJiaQu",
+                    "value": 51,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "XiangGang",
+            "children": [
+                {
+                    "name": "ZhongXiQu",
+                    "value": 36,
+                    "colname": "City"
+                },
+                {
+                    "name": "DongQu",
+                    "value": 79,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiuLongChengQu",
+                    "value": 65,
+                    "colname": "City"
+                },
+                {
+                    "name": "GuanTangQu",
+                    "value": 40,
+                    "colname": "City"
+                },
+                {
+                    "name": "NanQu",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShenShuiQu",
+                    "value": 14,
+                    "colname": "City"
+                },
+                {
+                    "name": "WanZaiQu",
+                    "value": 38,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuangDaXianQu",
+                    "value": 30,
+                    "colname": "City"
+                },
+                {
+                    "name": "YouJianWangQu",
+                    "value": 38,
+                    "colname": "City"
+                },
+                {
+                    "name": "LiDaoQu",
+                    "value": 37,
+                    "colname": "City"
+                },
+                {
+                    "name": "KuiQingQu",
+                    "value": 67,
+                    "colname": "City"
+                },
+                {
+                    "name": "BeiQu",
+                    "value": 80,
+                    "colname": "City"
+                },
+                {
+                    "name": "XiGongQu",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShaTianQu",
+                    "value": 63,
+                    "colname": "City"
+                },
+                {
+                    "name": "TunMenQu",
+                    "value": 82,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaBuQu",
+                    "value": 78,
+                    "colname": "City"
+                },
+                {
+                    "name": "QuanWanQu",
+                    "value": 23,
+                    "colname": "City"
+                },
+                {
+                    "name": "YuanLangQu",
+                    "value": 27,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "AoMen",
+            "children": [
+                {
+                    "name": "HuaDiMaTangQu",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShengAnDuoNiTangQu",
+                    "value": 62,
+                    "colname": "City"
+                },
+                {
+                    "name": "DaTangQu",
+                    "value": 34,
+                    "colname": "City"
+                },
+                {
+                    "name": "WangDeTangQu",
+                    "value": 57,
+                    "colname": "City"
+                },
+                {
+                    "name": "FengShunTangQu",
+                    "value": 81,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiaMoTangQu",
+                    "value": 34,
+                    "colname": "City"
+                },
+                {
+                    "name": "ShengFangJiGeTangQu",
+                    "value": 38,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        },
+        {
+            "name": "TaiWan",
+            "children": [
+                {
+                    "name": "TaiBeiShi",
+                    "value": 23,
+                    "colname": "City"
+                },
+                {
+                    "name": "GaoXiongShi",
+                    "value": 24,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiLongShi",
+                    "value": 67,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaiZhongShi",
+                    "value": 24,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaiNanShi",
+                    "value": 24,
+                    "colname": "City"
+                },
+                {
+                    "name": "XinZhuShi",
+                    "value": 44,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiaYiShi",
+                    "value": 72,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaiBeiXian",
+                    "value": 33,
+                    "colname": "City"
+                },
+                {
+                    "name": "YiLanXian",
+                    "value": 75,
+                    "colname": "City"
+                },
+                {
+                    "name": "XinZhuXian",
+                    "value": 16,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaoYuanXian",
+                    "value": 35,
+                    "colname": "City"
+                },
+                {
+                    "name": "MiaoLiXian",
+                    "value": 24,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaiZhongXian",
+                    "value": 60,
+                    "colname": "City"
+                },
+                {
+                    "name": "ZhangHuaXian",
+                    "value": 54,
+                    "colname": "City"
+                },
+                {
+                    "name": "NanTouXian",
+                    "value": 83,
+                    "colname": "City"
+                },
+                {
+                    "name": "JiaYiXian",
+                    "value": 85,
+                    "colname": "City"
+                },
+                {
+                    "name": "YunLinXian",
+                    "value": 27,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaiNanXian",
+                    "value": 66,
+                    "colname": "City"
+                },
+                {
+                    "name": "GaoXiongXian",
+                    "value": 43,
+                    "colname": "City"
+                },
+                {
+                    "name": "PingDongXian",
+                    "value": 32,
+                    "colname": "City"
+                },
+                {
+                    "name": "TaiDongXian",
+                    "value": 21,
+                    "colname": "City"
+                },
+                {
+                    "name": "HuaLianXian",
+                    "value": 12,
+                    "colname": "City"
+                },
+                {
+                    "name": "PengHuXian",
+                    "value": 65,
+                    "colname": "City"
+                }
+            ],
+            "colname": "Province"
+        }
+    ],
+    "name": "China"
+}
