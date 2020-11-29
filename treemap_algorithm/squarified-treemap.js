@@ -91,9 +91,9 @@ function sumArray(arrs){
     }
     return sum;
 }
-//[1,[2,3,4],1,[[2,3],[6,7,1]]] => 30;allarea = 60;
+//[1,[2,3,4],1,[[2,3],[6,7,1]]] => 30; allarea = 60;
 //[]
-function calcArea(data,allArea){ //原始数据，处理成面积[①]
+function calcArea(data,allArea){ //原始数据，处理成面积
     var areas = [];
     var unitArea = allArea/sumArray(data);
     var i = 0;

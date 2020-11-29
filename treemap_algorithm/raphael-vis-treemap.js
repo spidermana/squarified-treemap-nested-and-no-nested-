@@ -54,7 +54,14 @@ function AddStyle(basestyle,addstyle){
     }
     return basestyle;
 }
-function drawAbox(paper,coordinates,label,boxstyle,labelstyle,averageLen,color){   
+String.prototype.format = function() {
+    var formatted = this;
+    for( var arg in arguments ) {
+        formatted = formatted.replace("{" + arg + "}", arguments[arg]);
+    }
+    return formatted;
+};
+function drawAbox(paper,coordinates,label,data,boxstyle,labelstyle,averageLen,color){   
     var width = coordinates[2]-coordinates[0], height = coordinates[3]-coordinates[1];
     var box = paper.rect(coordinates[0],coordinates[1],width,height);
     var boxattr = boxstyle;
@@ -64,9 +71,20 @@ function drawAbox(paper,coordinates,label,boxstyle,labelstyle,averageLen,color){
     var text = paper.text((coordinates[0]+coordinates[2])/2,(coordinates[1]+coordinates[3])/2,label);
     labelstyle["font-size"] = CalcTextStyle(averageLen,width*height);
     text.attr(labelstyle);
+    
+    //var template = "Area = {0}, Data = {1}";
+    var sub_text = paper.text(coordinates[2]-10,coordinates[3]-10,data/*template.format(Math.round(width*height),data)*/);
+    var sub_style = labelstyle;
+    sub_style["font-size"] = 15;
+    sub_style["font-weight"] = 5;
+    sub_text.attr(sub_style);
 
     if(text.getBBox().width > width && text.getBBox().width <= height) { //根据box的情况，决定text要不要转置
         text.rotate(-90); //尝试90度，旋转找到最合适的状态。
+    }
+
+    if(sub_text.getBBox().width > width || sub_text.getBBox().height > height) { //根据box的情况，决定text要不要转置
+        sub_text.remove();
     }
 }
 function isCoo(arr){
@@ -102,7 +120,7 @@ function zoomIn(boxes,pos){ //pos为0表示头，pos为1表示尾部
     }
     return boxes[idx];
 }
-function Drawer(paper,boxes,labels,nowstyle,level,averageLen){
+function Drawer(paper,boxes,labels,data,nowstyle,level,averageLen){
     var i;
     var color = colors[level%3][Math.round(Math.random()*6)];
     //var first = zoomIn(boxes,0),last = zoomIn(boxes,1);
@@ -111,14 +129,14 @@ function Drawer(paper,boxes,labels,nowstyle,level,averageLen){
     if(oneLevelCoos(boxes)){
         for(i=0;i<boxes.length;i++){
             //Math.round(Math.random()*4)获取0或4的概率少一个半。
-            drawAbox(paper,boxes[i],labels[i],nowstyle.box,nowstyle.text,averageLen,color);
+            drawAbox(paper,boxes[i],labels[i],data[i],nowstyle.box,nowstyle.text,averageLen,color);
         }
     }else{
         for(i=0;i<boxes.length;i++){
             if(isCoo(boxes[i])){
-                drawAbox(paper,boxes[i],labels[i],nowstyle.box,nowstyle.text,averageLen,color);
+                drawAbox(paper,boxes[i],labels[i],data[i],nowstyle.box,nowstyle.text,averageLen,color);
             }else{
-                Drawer(paper,boxes[i],labels[i],nowstyle,level+1,averageLen);
+                Drawer(paper,boxes[i],labels[i],data[i],nowstyle,level+1,averageLen);
             }
         }
     }
@@ -136,5 +154,5 @@ function TreemapDraw(ele,data,labels,width,height,style){
     console.log("boxes",boxes);
 
     var averageLen =  CalcTotLabelLens(labels)/CntLabels(labels);
-    Drawer(paper,boxes,labels,nowstyle,0,averageLen);
+    Drawer(paper,boxes,labels,data,nowstyle,0,averageLen);
 }

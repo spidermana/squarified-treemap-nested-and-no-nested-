@@ -1,0 +1,20 @@
+.title-wins {
+    font-size: 4em;
+    text-align: center;
+    height:5vh;
+    line-height: 5vh;
+    color: #fcedd8;
+    font-family: 'Niconne', cursive;
+    font-weight: 20;
+    text-shadow: 3px 3px 0px #eb452b, 
+                6px 6px 0px #efa032, 
+                9px 9px 0px #46b59b, 
+                12px 12px 0px #017e7f, 
+                15px 15px 0px #052939, 
+                18px 18px 0px #c11a2b;
+}
+.info-text {
+font-family: 'Sansita Swashed', cursive;
+color: #fcedd8;
+font-size: 30px;
+}
