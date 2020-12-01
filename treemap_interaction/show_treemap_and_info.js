@@ -23,13 +23,10 @@ d3.treemap()
   .paddingTop(35)        
   .paddingRight(20)
   .paddingInner(3)      
-  //.paddingOuter(6)
-  //.padding(20)
   (root)
 
 
 var color = d3.scaleOrdinal(d3.schemeCategory20)
-// And a opacity scale
 var opacity = d3.scaleLinear()
   .domain([10, 90])   //value
   .range([.5,1])  //0.5~1的透明度
@@ -81,12 +78,12 @@ svg
 svg
   .append("text")
   .attr("x", 0)
-  .attr("y", 14)    // +20 to adjust position (lower)
+  .attr("y", 14)    
   .text("Treemap Layout of Chinese Provinces(Part Of)")
   .attr("font-size", "50px")
   .attr("fill",  "orange" )
   .attr("font-family","Piedra")
-  // create a tooltip
+
 var tooltip = d3.select("#infowins")
           .append("div")
           .style("position", "absolute")
