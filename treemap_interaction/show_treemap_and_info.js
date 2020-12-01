@@ -27,6 +27,8 @@ d3.treemap()
   //.padding(20)
   (root)
 
+  console.log(root)
+
 
 var color = d3.scaleOrdinal(d3.schemeCategory20)
 // And a opacity scale
@@ -112,14 +114,14 @@ d3.selectAll("rect")
   })
   .on("mousemove",function(){
      //console.log("MOVE",d3.event);
-      tooltip.style("visibility", "visible");
-      tooltip.style("top", (d3.event.pageY)+"px")
-              .style("left",(d3.event.pageX)+"px") 
+      tooltip.style("top", (d3.event.pageY+5)+"px")
+              .style("left",(d3.event.pageX+5)+"px") 
               .html("<div class='title-wins'>Info Windows</div><br><span class='info-text'>The value of this city is "+Math.round(opacity.invert(this.style.opacity))+"<br></span><span class='info-text'>The name of this city is "+d3.select(this).attr("text")+"<br></span><img src='./china.png' width='250' height='260' style='margin:15px 70px'></img><br>");
       return;
     })
   .on("mouseout",function(){
-        //console.log("OUT",d3.event);
+        //console.log("OUT_EVENT",d3.select(d3.event.toElement)["_groups"][0]);
+        //console.log("OUT",d3.event)
         d3.select(this)
         .style("fill",oldcolor);
         tooltip.style("visibility", "hidden");

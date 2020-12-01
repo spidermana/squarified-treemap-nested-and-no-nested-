@@ -1,7 +1,7 @@
 
-var colors1=["hsb(0,1,0.4)","hsb(0,1,0.4)", "hsb(0.2,1,0.4)", "hsb(0.4,1,0.4)", "hsb(0.6,1,0.4)", "hsb(0.8,1,0.4)","hsb(0.8,1,0.4)"];
-var colors2=["hsb(1,0.4,0)", "hsb(1,0.4,0)", "hsb(1,0.4,0.2)", "hsb(1,0.4,0.4)", "hsb(1,0.4,0.6)", "hsb(1,0.4,0.8)","hsb(1,0.4,0.8)"];
-var colors3=["hsb(1,0,0.4)", "hsb(1,0,0.4)", "hsb(1,0.2,0.4)", "hsb(1,0.4,0.4)", "hsb(1,0.6,0.4)", "hsb(1,0.8,0.4)","hsb(1,0.8,0.4)"];
+var colors1=["hsb(0,1,0.4)","hsb(0,1,0.4)", "hsb(0.1,1,0.4)", "hsb(0.2,1,0.4)","hsb(0.3,1,0.4)", "hsb(0.4,1,0.4)", "hsb(0.5,1,0.4)", "hsb(0.6,1,0.4)","hsb(0.7,1,0.4)","hsb(0.8,1,0.4)","hsb(0.8,1,0.4)"];
+var colors2=["hsb(1,0.4,0)", "hsb(1,0.4,0)", "hsb(1,0.4,0.1)", "hsb(1,0.4,0.2)", "hsb(1,0.4,0.3)", "hsb(1,0.4,0.4)", "hsb(1,0.4,0.5)", "hsb(1,0.4,0.6)", "hsb(1,0.4,0.7)", "hsb(1,0.4,0.8)","hsb(1,0.4,0.8)"];
+var colors3=["hsb(1,0,0.4)", "hsb(1,0,0.4)", "hsb(1,0.1,0.4)", "hsb(1,0.2,0.4)","hsb(1,0.3,0.4)", "hsb(1,0.4,0.4)","hsb(1,0.5,0.4)", "hsb(1,0.6,0.4)", "hsb(1,0.7,0.4)", "hsb(1,0.8,0.4)","hsb(1,0.8,0.4)"];
 var colors=[colors1,colors2,colors3];   //目前支持三种颜色
 
 function isArray(arr) {
@@ -61,6 +61,17 @@ String.prototype.format = function() {
     }
     return formatted;
 };
+function calcOffset(data){
+    if(Math.round(data/100)){
+        return 15
+    }
+    if(data/10>=1){
+        return 6
+    }
+    else{
+        return 3
+    }
+}
 function drawAbox(paper,coordinates,label,data,boxstyle,labelstyle,averageLen,color){   
     var width = coordinates[2]-coordinates[0], height = coordinates[3]-coordinates[1];
     var box = paper.rect(coordinates[0],coordinates[1],width,height);
@@ -73,9 +84,9 @@ function drawAbox(paper,coordinates,label,data,boxstyle,labelstyle,averageLen,co
     text.attr(labelstyle);
     
     //var template = "Area = {0}, Data = {1}";
-    var sub_text = paper.text(coordinates[2]-10,coordinates[3]-10,data/*template.format(Math.round(width*height),data)*/);
+    var sub_text = paper.text(coordinates[2]-calcOffset(data),coordinates[3]-8,data/*template.format(Math.round(width*height),data)*/);
     var sub_style = labelstyle;
-    sub_style["font-size"] = 15;
+    sub_style["font-size"] = Math.max(CalcTextStyle(averageLen,width*height)/2,5);
     sub_style["font-weight"] = 5;
     sub_text.attr(sub_style);
 
@@ -122,7 +133,7 @@ function zoomIn(boxes,pos){ //pos为0表示头，pos为1表示尾部
 }
 function Drawer(paper,boxes,labels,data,nowstyle,level,averageLen){
     var i;
-    var color = colors[level%3][Math.round(Math.random()*6)];
+    var color = colors[level%3][Math.round(Math.random()*10)];
     //var first = zoomIn(boxes,0),last = zoomIn(boxes,1);
     //first[0],first[1],last[2]-first[0],last[3]-first[1]
     //console.log("light_area",first[0],first[1],last[2]-first[0],last[3]-first[1])
